@@ -8,6 +8,11 @@
             "Katanaphp\\BootstrapComponents\\": "./src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "./tests"
+        }
+    },
     "authors": [
         {
             "name": "Sudhanshu R."
@@ -19,6 +24,8 @@
     },
     "require": {
         "katanaphp/blade": "dev-master",
-        "php": "^8"
+        "php": ">=8.0",
+        "symfony/dom-crawler": "^5",
+        "symfony/css-selector": "^5"
     }
 }
