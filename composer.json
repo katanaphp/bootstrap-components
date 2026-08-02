@@ -20,12 +20,12 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^9",
-        "symfony/var-dumper": "^5"
+        "symfony/var-dumper": "^5",
+        "symfony/css-selector": "^5",
+        "symfony/dom-crawler": "^5"
     },
     "require": {
         "katanaphp/blade": "dev-master",
-        "php": ">=8.0",
-        "symfony/dom-crawler": "^5",
-        "symfony/css-selector": "^5"
+        "php": ">=8.0"
     }
 }
