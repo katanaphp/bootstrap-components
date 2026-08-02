@@ -27,5 +27,8 @@
     "require": {
         "katanaphp/blade": "dev-master",
         "php": ">=8.0"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
