@@ -1,0 +1,17 @@
+{
+    "name": "katanaphp/bootstrap-components",
+    "description": "Bootstrap blade components for any PHP project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Katanaphp\\BootstrapComponents\\": "./src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sudhanshu R."
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e500cc23e9aa52fbf6c529641ab565c0",
+    "packages": [
+        {
+            "name": "katanaphp/blade",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/katanaphp/blade.git",
+                "reference": "002fdf28c1c17d3f43e09257ba818a0774fe396a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/katanaphp/blade/zipball/002fdf28c1c17d3f43e09257ba818a0774fe396a",
+                "reference": "002fdf28c1c17d3f43e09257ba818a0774fe396a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.2",
+                "phpunit/phpunit": "^9",
+                "symfony/var-dumper": "^5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Blade\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Standalone version of Laravel Blade",
+            "support": {
+                "issues": "https://github.com/katanaphp/blade/issues",
+                "source": "https://github.com/katanaphp/blade/tree/master"
+            },
+            "time": "2026-08-01T08:43:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "katanaphp/blade": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
