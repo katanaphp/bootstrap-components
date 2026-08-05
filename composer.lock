@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/katanaphp/blade.git",
-                "reference": "002fdf28c1c17d3f43e09257ba818a0774fe396a"
+                "reference": "54569b3ec8c251c2cc8a59d06d44591219915ef5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/katanaphp/blade/zipball/002fdf28c1c17d3f43e09257ba818a0774fe396a",
-                "reference": "002fdf28c1c17d3f43e09257ba818a0774fe396a",
+                "url": "https://api.github.com/repos/katanaphp/blade/zipball/54569b3ec8c251c2cc8a59d06d44591219915ef5",
+                "reference": "54569b3ec8c251c2cc8a59d06d44591219915ef5",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,13 @@
                 "issues": "https://github.com/katanaphp/blade/issues",
                 "source": "https://github.com/katanaphp/blade/tree/master"
             },
-            "time": "2026-08-01T08:43:37+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/soysudhanshu",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-08-05T15:40:53+00:00"
         }
     ],
     "packages-dev": [
